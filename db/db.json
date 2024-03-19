@@ -1,0 +1,17 @@
+{
+    "tipos": [
+        {
+            "id": 1,
+            "nome": "Papel"
+        },
+        {
+            "id": 2,
+            "nome": "Descartável"
+        },
+        {
+            "id": 3,
+            "nome": "Caneta"
+        }
+    ],
+    "produtos": []
+}
