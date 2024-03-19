@@ -12,7 +12,7 @@ export default{
 
 <style lang="scss" scoped>
 #footer{
-    height: 12rem;
+    height: 15rem;
     background-color: #222;
     border-top: .4rem solid #111;
     color: white;

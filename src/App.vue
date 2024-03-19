@@ -40,7 +40,7 @@ body{
   justify-content: center;
 
   margin: 4rem;
-  min-height: 65rem;
+  min-height: 64.9rem;
   font-size: 2rem;
 
   h1{
