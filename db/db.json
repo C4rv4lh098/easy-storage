@@ -1,36 +1,41 @@
 {
+  "tipos": {
     "tipos": [
-        {
-            "id": 1,
-            "nome": "Papel"
-        },
-        {
-            "id": 2,
-            "nome": "Descartável"
-        },
-        {
-            "id": 3,
-            "nome": "Caneta"
-        }
-    ],
-    "produtos": [
-        {
-            "nome": "Resma de Folha",
-            "tipo": "Papel",
-            "quantidade": "500",
-            "descricao": "Resma A4 com 500 folhas"
-        },
-        {
-            "nome": "Pacote de Copos de 250ml",
-            "tipo": "Descartável",
-            "quantidade": "200",
-            "descricao": "Pacote com 100 copos plásticos de 250ml"
-        },
-        {
-            "nome": "Caixa caneta Esferográfica Bic Azul",
-            "tipo": "Caneta",
-            "quantidade": "50",
-            "descricao": "Canetas esferográfica azul, marca Bic, caixa com 50 canetas"
-        }
+      {
+        "id": 1,
+        "tipo": "Papel"
+      },
+      {
+        "id": 2,
+        "tipo": "Descartável"
+      },
+      {
+        "id": 3,
+        "tipo": "Caneta"
+      }
     ]
+  },
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Resma de Folha",
+      "tipo": "Papel",
+      "quantidade": "500",
+      "descricao": "Resma A4 com 500 folhas"
+    },
+    {
+      "id": 2,
+      "nome": "Pacote de Copos de 250ml",
+      "tipo": "Descartável",
+      "quantidade": "200",
+      "descricao": "Pacote com 100 copos plásticos de 250ml"
+    },
+    {
+      "id": 3,
+      "nome": "Caixa caneta Esferográfica Bic Azul",
+      "tipo": "Caneta",
+      "quantidade": "50",
+      "descricao": "Canetas esferográfica azul, marca Bic, caixa com 50 canetas"
+    }
+  ]
 }

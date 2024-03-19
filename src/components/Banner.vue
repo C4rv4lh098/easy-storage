@@ -5,13 +5,13 @@
 </template>
 
 <script>
-export default{
+export default {
     name: 'Banner'
 }
 </script>
 
-<style scoped lang="scss">
-#banner{
+<style scoped>
+#banner {
     background-image: url("../assets/storage.jpg");
     background-size: cover;
     height: 20rem;
@@ -19,13 +19,13 @@ export default{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
 
-    h1{
-        color: #fff;
-        text-align: center;
-        font-size: 6rem;
-        background-color: #222;
-        padding: 2rem 4rem;
-    }
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+    background-color: #222;
+    padding: 2rem 4rem;
 }
 </style>

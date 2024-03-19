@@ -1,7 +1,7 @@
 <template>
-  <NavBar />
+  <NavBar :logo="logo_src" :alt="app_name"/>
   <router-view />
-  <Footer/>
+  <Footer />
 </template>
 
 
@@ -13,12 +13,17 @@ export default {
   components: {
     NavBar,
     Footer
+  },
+  data(){
+    return{
+      logo_src: "./assets/logo.png",
+      app_name: "Easy Storage"
+    }
   }
 }
 </script>
 
-<style lang="scss">
-
+<style>
 :root {
   font-size: 62.5%;
 }
@@ -29,11 +34,11 @@ export default {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #eee;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,10 +47,10 @@ body{
   margin: 4rem;
   min-height: 64.9rem;
   font-size: 2rem;
+}
 
-  h1{
-    font-size: 5.6rem;
-    margin-bottom: 1.5rem;
-  }
+h1 {
+  font-size: 5.6rem;
+  margin-bottom: 1.5rem;
 }
 </style>

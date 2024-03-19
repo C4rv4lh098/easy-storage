@@ -10,7 +10,7 @@ export default{
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 #footer{
     height: 15rem;
     background-color: #222;
